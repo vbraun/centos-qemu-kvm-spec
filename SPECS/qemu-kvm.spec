@@ -729,6 +729,7 @@ Patch284: kvm-target-s390x-tcg-mem_helper-Test-the-right-bits-in-p.patch
 # For bz#2169308 - Backport latest s390x-related fixes from upstream QEMU for qemu-kvm in RHEL 8.9
 # For bz#2209605 - [IBM 8.9 FEAT] KVM: ECKD List Directed IPL - virtio (qemu)
 Patch285: kvm-pc-bios-Add-support-for-List-Directed-IPL-from-ECKD-.patch
+Patch1000: 1000-enable-applesmc.patch
 
 BuildRequires: wget
 BuildRequires: rpm-build

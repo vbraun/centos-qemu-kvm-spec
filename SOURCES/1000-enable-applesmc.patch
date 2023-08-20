@@ -1,0 +1,10 @@
+--- ./configs/devices/x86_64-softmmu/x86_64-rh-devices.mak-orig	2023-08-20 22:21:24.403235179 +0200
++++ ./configs/devices/x86_64-softmmu/x86_64-rh-devices.mak	2023-08-20 22:22:24.107185355 +0200
+@@ -102,3 +102,7 @@
+ CONFIG_TPM_EMULATOR=y
+ CONFIG_TPM_PASSTHROUGH=y
+ CONFIG_SGX=y
++
++CONFIG_APPLESMC=y
++CONFIG_VMWARE_VGA=y
++CONFIG_E1000_PCI=y
